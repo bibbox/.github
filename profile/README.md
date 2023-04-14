@@ -24,7 +24,6 @@ The Base Docker is a container created from a Docker Image of the existing softw
 
 
 Additional Docker Containers of the App, such as databases, can be integrated with the Docker Image of the Base Docker, resulting in a docker-compose file, which should be published in the **app-nameofapp** repository. 
-Docker Images of the additional Docker Containers can, if necessary, be published in the BIBBOX GitHub repository and in the BIBBOX Docker Hub.
 
 In order to register an App in the BIBBOX, the files [applications.json](https://github.com/bibbox/application-store/blob/master/applications.json)  and [bibbox.json](https://github.com/bibbox/application-store/blob/master/bibbox.json) of the [application-store](https://github.com/bibbox/application-store) repository have to be extended.
 
