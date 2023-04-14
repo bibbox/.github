@@ -10,7 +10,7 @@ If you
 
 ## How to create a BIBBOX App?
 
-Starting with an existing open-source software solution that handles data, one can easily transform it into a BIBBOX App, following the tutorial at {https://bibbox.readthedocs.io/en/latest/}[https://bibbox.readthedocs.io/en/latest/].
+Starting with an existing open-source software solution that handles data, one can easily transform it into a BIBBOX App, following the tutorial at [https://bibbox.readthedocs.io/en/latest/](https://bibbox.readthedocs.io/en/latest/).
 
 Each BIBBOX App must be published in the BIBBOX GitHub repository [32], by creating a repository named **app-nameofapp**. The repository [**app-template**](https://github.com/bibbox/app-template) aims to guide you when creating an App. 
 
