@@ -5,7 +5,7 @@ The main components of the BIBBOX (Frintend/Backend) are stored on the sys-bibbo
 
 ## How to contribute to the BIBBOX?
 
-If you 
+You can create a BIBBOX App. If you have an open-source software solution, you can follow the tutorial at [https://bibbox.readthedocs.io/en/latest/](https://bibbox.readthedocs.io/en/latest/) in order to transform it into a BIBBOX App.
 
 
 ## How to create a BIBBOX App?
