@@ -23,9 +23,9 @@ The Base Docker is a container created from a Docker Image of the existing softw
 Additional Docker Containers of the App, such as databases, can be integrated with the Docker Image of the Base Docker, resulting in a docker-compose file, which should be published in the **app-nameofapp** repository. 
 Docker Images of the additional Docker Containers can, if necessary, be published in the BIBBOX GitHub repository and in the BIBBOX Docker Hub.
 
-In order to register an App in the BIBBOX, two configuration files in the BIBBOX repository application-store have to be extended:  [bibbox/application-store/applications.json](https://github.com/bibbox/application-store/blob/master/applications.json)  and {bibbox.json} [https://github.com/bibbox/application-store/blob/master/bibbox.json].
+In order to register an App in the BIBBOX, two configuration files of repository application-store have to be extended:  [applications.json](https://github.com/bibbox/application-store/blob/master/applications.json)  and [bibbox.json] [https://github.com/bibbox/application-store/blob/master/bibbox.json].
 
-The file *applications.json* maps the  App repository to a human-readable name of the App. The file *bibbox.json* groups the Apps into specific categories, according to their functionality. 
+The file **applications.json** maps the  App repository to a human-readable name of the App. The file **bibbox.json** groups the Apps into specific categories, according to their functionality. 
 Once the App is published in the BIBBOX GitHub repository, it becomes available for installation at the App Store of the BIBBOX Portal. Once a user installs an App, its installation will appear on "App Instances". Users can browse all the Apps available in the "App Store" and install them.  In the "App Instances", users can access all the current installation instances of the Apps.
 
 
