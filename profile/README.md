@@ -19,11 +19,7 @@ Each BIBBOX App must be published in a repository named **app-nameofapp**. The r
 
 ### The most important steps to generate a BIBBOX App are:
 
-The Base Docker is a container created from a Docker Image of the existing software tool. The officially published Docker Image of the software can be used. If none is available, a Dockerfile of the Docker Image should be stored in a BIBBOX GitHub repository named **img-nameofdocker** and the Docker Image published in the [BIBBOX Docker Hub](https://hub.docker.com/u/bibbox/).
-
-
-
-Additional Docker Containers of the App, such as databases, can be integrated with the Docker Image of the Base Docker, resulting in a docker-compose file, which should be published in the **app-nameofapp** repository. 
+The Base Docker is a container created from a Docker Image of the existing software tool. The officially published Docker Image of the software can be used. If none is available, a Dockerfile of the Docker Image should be stored in a BIBBOX GitHub repository named **img-nameofdocker** and the Docker Image published in the [BIBBOX Docker Hub](https://hub.docker.com/u/bibbox/). If necessary,  additional Docker Containers of the App, such as databases, can be integrated with the Docker Image of the Base Docker.
 
 In order to register an App in the BIBBOX, the files [applications.json](https://github.com/bibbox/application-store/blob/master/applications.json)  and [bibbox.json](https://github.com/bibbox/application-store/blob/master/bibbox.json) of the [application-store](https://github.com/bibbox/application-store) repository have to be extended.
 
