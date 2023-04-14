@@ -1,7 +1,7 @@
 # BIBBOX 
 
 This is the BIBBOX repository.
-The main components of the BIBBOX (Frintend/Backend) are stored on the sys-bibbox repository.
+The main components of the BIBBOX (Frontend/Backend) are stored on the [**sys-bibbox**]() repository.
 
 ## How to contribute to the BIBBOX?
 
