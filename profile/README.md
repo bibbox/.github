@@ -1,16 +1,15 @@
-# BIBBOX 
+# Welcome to thr BIBBOX Repository
 
-This is the BIBBOX repository.
-The main components of the BIBBOX (Frontend/Backend) are stored on the [**sys-bibbox**]() repository.
+The BIBBOX allows researchers to publish their data and the associated data management software (Apps) in a FAIR manner, through the incorporation of a FAIR Data Point into the Apps. 
+The BIBBOX supports the creation and management of FAIR Data Points. The architecture of the BIBBOX is modular and flexible, allowing researchers to add a FAIR Data Point to existing open-source software solutions and to publish these in an App Store. The main components of the BIBBOX architecture (Frontend/Backend) are stored on the [**sys-bibbox**](https://github.com/bibbox/sys-bibbox) repository.
+
 
 ## How to contribute to the BIBBOX?
 
-You can create a BIBBOX App. If you have an open-source software solution, you can follow the tutorial at [https://bibbox.readthedocs.io/en/latest/](https://bibbox.readthedocs.io/en/latest/) in order to transform it into a BIBBOX App.
+You can create a BIBBOX App! If you have an open-source software solution, you can follow the tutorial at [http://bibbox.bbmri-eric.eu/create-a-bibbox-app/)](http://bibbox.bbmri-eric.eu/create-a-bibbox-app/)in order to transform it into a BIBBOX App.
 
 
 ## How to create a BIBBOX App?
-
-Starting with an existing open-source software solution that handles data, one can easily transform it into a BIBBOX App, following the tutorial at [https://bibbox.readthedocs.io/en/latest/](https://bibbox.readthedocs.io/en/latest/).
 
 Each BIBBOX App must be published in the BIBBOX GitHub repository [32], by creating a repository named **app-nameofapp**. The repository [**app-template**](https://github.com/bibbox/app-template) aims to guide you when creating an App. 
 
