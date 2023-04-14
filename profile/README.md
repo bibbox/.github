@@ -10,7 +10,6 @@ The BIBBOX supports the creation and management of FAIR Data Points. The archite
 ## How to contribute to the BIBBOX?
 
 You can create a BIBBOX App! 
-
 If you have an open-source software solution, you can easily transform it into a BIBBOX App, following the tutorial at [http://bibbox.bbmri-eric.eu/create-a-bibbox-app/)](http://bibbox.bbmri-eric.eu/create-a-bibbox-app/).
 
 
