@@ -13,7 +13,7 @@ If you have an open-source software solution, you can easily transform it into a
 
 ## How to create a BIBBOX App?
 
-Each BIBBOX App must be published in the BIBBOX GitHub repository [32], by creating a repository named **app-nameofapp**. The repository [**app-template**](https://github.com/bibbox/app-template) aims to guide you when creating an App. 
+Each BIBBOX App must be published in a repository named **app-nameofapp**. The repository [**app-template**](https://github.com/bibbox/app-template) aims to guide you when creating an App. 
 
 ### The most important steps to generate a BIBBOX App are:
 
