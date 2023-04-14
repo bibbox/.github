@@ -1,15 +1,21 @@
-#BIBBOX 
+# BIBBOX 
 
 This is the BIBBOX repository.
 The main components of the BIBBOX (Frintend/Backend) are stored on the sys-bibbox repository.
 
+## How to contribute to the BIBBOX?
 
 
-How to create a BIBBOX App?
+
+
+## How to create a BIBBOX App?
 
 Starting with an existing open-source software solution that handles data, one can easily transform it into a BIBBOX App, following the tutorial at {https://bibbox.readthedocs.io/en/latest/}[https://bibbox.readthedocs.io/en/latest/].
 
-Each BIBBOX App must be published in the BIBBOX GitHub repository [32], by creating a repository named app-nameofapp. The repository app-template [33] aims to guide users when creating an App. Briefly, the most important steps to generate a BIBBOX App are:
+Each BIBBOX App must be published in the BIBBOX GitHub repository [32], by creating a repository named app-nameofapp. The repository app-template [33] aims to guide users when creating an App. 
+
+
+The most important steps to generate a BIBBOX App are:
 The Base Docker is a container created from a Docker Image of the existing software tool. The officially published Docker Image of the software can be used. If none is available, a Dockerfile of the Docker Image should be stored in a BIBBOX GitHub repository named img-nameofdocker and the Docker Image published in the BIBBOX Docker Hub [34].
 Additional Docker Containers of the App, such as databases, can be integrated with the Docker Image of the Base Docker, resulting in a docker-compose file, which should be published in the app-nameofapp repository. As depicted in Figure 7, the Docker Images of the additional Docker Containers can, if necessary, be published in the BIBBOX GitHub repository and in the BIBBOX Docker Hub.
 The FAIR Data Point is recommended for Apps that handle data, in order to make the data FAIR. For the extension of an App with a FAIR Data Point (FDP), the different components of the FDP are combined into a Docker Image and published in the BIBBOX Docker Hub. As many Apps do not internally support FDPs, the appropriate metadata of the App must be extracted and transformed by the middleware and then loaded into the FDP.
