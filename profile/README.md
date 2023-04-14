@@ -4,12 +4,13 @@
 # Welcome to the BIBBOX Repository
 
 The BIBBOX allows researchers to publish their data and the associated data management software (Apps) in a FAIR manner, through the incorporation of a FAIR Data Point into the Apps. 
-The BIBBOX supports the creation and management of FAIR Data Points. The architecture of the BIBBOX is modular and flexible, allowing researchers to add a FAIR Data Point to existing open-source software solutions and to publish these in an App Store. The main components of the BIBBOX architecture (Frontend/Backend) are stored on the [**sys-bibbox**](https://github.com/bibbox/sys-bibbox) repository.
+The architecture of the BIBBOX is modular and flexible, allowing researchers to add a FAIR Data Point to existing open-source software solutions and to publish these in the App Store. The main components of the BIBBOX architecture (Frontend/Backend) are stored on the [**sys-bibbox**](https://github.com/bibbox/sys-bibbox) repository.
 
 
 ## How to contribute to the BIBBOX?
 
 You can create a BIBBOX App! 
+
 If you have an open-source software solution, you can easily transform it into a BIBBOX App, following the tutorial at [http://bibbox.bbmri-eric.eu/create-a-bibbox-app/](http://bibbox.bbmri-eric.eu/create-a-bibbox-app/).
 
 
