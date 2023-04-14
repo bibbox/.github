@@ -1,3 +1,6 @@
+<img src="./img/silicolab_logo.png" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="60" height="60">
+
 # Welcome to the BIBBOX Repository
 
 The BIBBOX allows researchers to publish their data and the associated data management software (Apps) in a FAIR manner, through the incorporation of a FAIR Data Point into the Apps. 
@@ -25,9 +28,6 @@ Additional Docker Containers of the App, such as databases, can be integrated wi
 Docker Images of the additional Docker Containers can, if necessary, be published in the BIBBOX GitHub repository and in the BIBBOX Docker Hub.
 
 In order to register an App in the BIBBOX, the files [applications.json](https://github.com/bibbox/application-store/blob/master/applications.json)  and [bibbox.json](https://github.com/bibbox/application-store/blob/master/bibbox.json) of the [application-store](https://github.com/bibbox/application-store) repository have to be extended.
-
-The file **applications.json** maps the  App repository to a human-readable name of the App. The file **bibbox.json** groups the Apps into specific categories, according to their functionality. 
-Once the App is published in the BIBBOX GitHub repository, it becomes available for installation at the App Store of the BIBBOX Portal. Once a user installs an App, its installation will appear on "App Instances". Users can browse all the Apps available in the "App Store" and install them.  In the "App Instances", users can access all the current installation instances of the Apps.
 
 
 
