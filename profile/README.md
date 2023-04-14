@@ -1,8 +1,13 @@
-This is the repository of the BIBBOX Apps.
+#BIBBOX 
+
+This is the BIBBOX repository.
+The main components of the BIBBOX (Frintend/Backend) are stored on the sys-bibbox repository.
+
+
 
 How to create a BIBBOX App?
 
-Starting with an existing open-source software solution that handles data, one can easily transform it into a BIBBOX App, following the tutorial at https://bibbox.readthedocs.io/en/latest/.
+Starting with an existing open-source software solution that handles data, one can easily transform it into a BIBBOX App, following the tutorial at {https://bibbox.readthedocs.io/en/latest/}[https://bibbox.readthedocs.io/en/latest/].
 
 Each BIBBOX App must be published in the BIBBOX GitHub repository [32], by creating a repository named app-nameofapp. The repository app-template [33] aims to guide users when creating an App. Briefly, the most important steps to generate a BIBBOX App are:
 The Base Docker is a container created from a Docker Image of the existing software tool. The officially published Docker Image of the software can be used. If none is available, a Dockerfile of the Docker Image should be stored in a BIBBOX GitHub repository named img-nameofdocker and the Docker Image published in the BIBBOX Docker Hub [34].
