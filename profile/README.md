@@ -1,5 +1,5 @@
-<img src="../../../application-store/img/silicolab_logo.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="60" height="60">
+<img src="https://github.com/bibbox/application-store/blob/master/img/silicolab_logo.png" align="right"
+     alt="BIBBOX" width="60" height="60">
 
 # Welcome to the BIBBOX Repository
 
